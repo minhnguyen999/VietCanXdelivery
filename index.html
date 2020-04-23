@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<!-- RESOURCES
+- Fontawesome.com for the logos
+- Jquery took from http://code.jquery.com/ 
+> minified version
+- Responsive menu by: https://codepen.io/neilso/pen/ziwgI 
+> hit arrow on Html, hit html to see the html version 
+> hit arrow on css, hit view compiled css (bc the code was written in SAss)
+- Login smartmockup.com to get the phone and ipad screens
+-->
+
+<html lang="vi">
+	<head>
+		<!--Make sure to have this-->
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible"
+		content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
+		<title> XDelivery </title>
+		
+	</head>
+	
+	<body>
+
+		<!--showcase and nav-->
+		<div id="showcase">
+			<header>
+				<nav>
+					<div class="logo">
+						<img src="img/logo.png" alt="logo">
+					</div>
+					
+					<ul class='cf'>
+						<li>
+						  <a href='index.html'>Trang Chủ</a>
+						</li>
+						<li>
+						  <a href='news.html'>Tin tức</a>
+						</li>
+						<li>
+						  <a href='transport.html'>Vận Chuyển</a>
+						</li>
+						<li>
+						  <a href='tracking.html'>Theo Dõi</a>
+						</li>
+						<li>
+						  <a href='support.html'>Hỗ Trợ</a>
+						</li>
+						<li>
+						  <a href='login.html'>Đăng Ký/Đăng Nhập</a>
+						</li>
+					</ul>
+					
+					<div class="burger">
+						<div class="line1"></div>
+						<div class="line2"></div>
+						<div class="line3"></div>
+					</div>
+					
+					<div class="search-box">
+						<input type="text" name="" class="search-txt" placeholder="Gõ để tìm kiếm"/>
+		
+						<a class="search-btn" href="#">
+						<i class="fas fa-search"></i>
+						</a>
+					</div>
+						
+				<!-- SOCIAL MEDIA SYMBOLS
+					<ul class="icon">
+						<li>
+						  <i class="fab fa-facebook fa-2x"></i>
+						</li>
+						<li>
+						  <i class="fab fa-google-plus-g fa-2x"></i>
+						</li>
+						<li>
+						  <i class="fab fa-twitter fa-2x"></i>
+						</li>
+						<li>
+						  <i class="fab fa-youtube fa-2x"></i>
+						</li>
+						<li>
+						  <i class="fab fa-linkedin fa-2x"></i>
+						</li>
+					</ul>
+					-->
+					
+				</nav>
+			</header>
+			<div class="hotline">
+				<span class="before_hotline">Hotline:</span>
+				<span class="hotline-number">(+1) 416 361 0808 </span>
+			</div>
+
+			<div class="hotmes">
+				<i class="fa fa-envelope fa-2x"></i>
+				<i class="hotmes-mes">   để lại tin nhắn cho VnCan</i>
+			</div>
+
+			<div class="section-main container">
+				<h1> Chào Mừng Đến Với XDelivery </h1>
+				<h2> SWIFT, SAFE, SAVE - Nhanh Chắc Gọn Rẻ Là Phương Châm Của Chúng Tôi</h2>
+				<p class="lead hide-on-small"> Khi gửi hàng với XDelivery - bạn đang gửi hàng với các chuyên gia về dịch vụ giao nhận chuyển phát nhanh và gửi hàng quốc tế! Với nhiều dịch vụ chuyển phát nhanh cho bưu kiện và gói hàng, cùng các giải pháp vận chuyển và dò tìm phù hợp với nhu cầu của bạn - hãy tìm hiểu cách XDelivery chuyển phát hàng!.</p>
+				
+			</div>
+		
+		</div>
+
+		<!--account section-->
+		<section class="account">
+			<div id="text">
+				<h2> Mở tài khoản XDelivery và nhận thêm nhiều lợi ích </h2>
+				<p>Khai thác những giải pháp dịch vụ được thiết kế để đáp ứng nhu cầu vận chuyển của bạn khi đăng ký mở tài khoản XDelivery hôm nay </p>
+				<a href="#" class="btn btn-primary mb"> Mở Tài Khoản </a>
+			</div>
+			
+			<div id="image">
+				<img src="img/account.jpg"> </img>
+			</div>
+		</section>
+
+
+		<!--Service Section-->
+		<section class="service">
+			<div id="service-img">
+				<img src="img/service.jpg"> </img>
+			</div>
+			
+			<div id="service-text">
+				<h2>Những Dịch Vụ Nổi Bật Của VNCan</h2>
+				<p> Tìm hiểu những dịch vụ về pháp lý, nhập cư, định hướng du học Canada và còn nhiều hơn nữa của VnCan </p>
+				<a href="#" class="btn btn-primary mb"> Tìm Hiểu Thêm </a>
+			</div>
+		</section>
+		
+		<!-- News section -->
+		<section class="news">
+			<div id="news-text">
+				<h2>Tin Tức & Sự Kiện Nổi Bật</h2>
+			</div>
+			
+			<div id="news-img">
+				<div class="myshow fade">
+					<img src="img/law.jpg">
+				</div>
+				
+				<div class="myshow fade">
+					<img src="img/nhapcu.jpg">
+				</div>
+				
+				<div class="myshow fade">
+					<img src="img/Study.png">
+				</div>
+			</div>
+
+			<div class="news-button">
+				<!-- Next and previous buttons -->
+				<a class="prevpage" onclick="clickSlides(-1)">&#10094;</a>
+				<a class="nextpage" onclick="clickSlides(1)">&#10095;</a>
+			</div>
+			
+			<!-- The dots -->
+			<div id="dots">
+			  <a class="prevpage1" onclick="clickSlides(-1)">&#10094;</a>
+			  <span class="dot" onclick="currentPage(1)"></span> 
+			  <span class="dot" onclick="currentPage(2)"></span> 
+			  <span class="dot" onclick="currentPage(3)"></span> 
+			  <a class="nextpage1" onclick="clickSlides(1)">&#10095;</a>
+			</div>
+		</section>
+		
+		<!--Help Section-->
+		<section class="help">
+			<div id="box1">
+				<h2>Tài nguyên doanh nghiệp của bạn</h2>
+				<p>Khám phá những cách để làm việc hiệu quả hơn, truy cập Trung tâm khách hàng mới ,</p>
+				<p>
+				đăng ký nhận Tin tức điện tử và nhận thông tin chi tiết từ Trung tâm thông tin doanh nghiệp.
+				</p>
+			</div>
+
+			<div id="box2">
+				<img src="img/help1.jpg" id="box2-img"> </img>
+				<h2>Bạn Mới Sử Dụng XDelivery ?</h2>
+				<p> Trung tâm khách hàng mới của chúng tôi sẽ hướng dẫn bạn tất cả các bước cần thiết khi vận chuyển với XDelivery </p>
+				<a href="#" class="btn btn-primary mb"> Hãy Để Chúng Tôi Trợ Giúp </a>	
+			</div >
+			
+			<div id="box3">
+				<img src="img/help2.jpg"> </img>
+				<h2>Địa điểm đặt thùng nhận hàng của XDelivery</h2>
+				<p> XDelivery có mặt ở Toronto, Vancouver và TP Hồ Chí Minh, cung cấp các địa điểm đặt thùng nhận hàng tiện lợi giúp bạn tiết kiệm thời gian và tiền bạc</p>
+				<a href="#" class="btn btn-primary mb"> Tìm Địa Điểm </a>
+			</div>
+			
+			<div id="box4">
+				<h2>Mở rộng sự hiện diện của bạn trên thị trường</h2>
+				<p> Trung tâm thông tin doanh nghiệp giúp bạn có được lợi thế cạnh tranh trên thị trường. Hãy nắm bắt các xu hướng mới nhất và nguồn cảm hứng để phát triển doanh nghiệp. </p>
+				<a href="#" class="btn btn-primary mb"> Có Được Sự Thấu Hiểu </a>
+			</div>
+			
+			<div id="box5">
+				<img src="img/help3.jpg"> </img>
+			</div>
+		</section>
+		<!--Gift Card Section-->
+
+
+		<!--Footer-->
+		<footer>
+			<div class=container">
+				<div class="footer-cols">
+					<ul>
+						<li> Công Ty Chúng Tôi </li>
+						<li>
+							<a href="#">Giới thiệu về XDelivery</a>
+						</li>
+						<li>
+							<a href="#">Điều Kiện Vận Chuyển Tiêu Chuẩn</a>
+						</li>
+						<li>
+							<a href="#">Phụ Phí Và Các Thông Tin Khác</a>
+						</li>
+					</ul>
+					
+					<ul>
+						<li>Liên Hệ</li>
+						<li>
+							<strong>Văn Phòng Toronto</strong>
+							<p>
+								8 King Street East, Unit 705,  Toronto, ON M5C 1B5 <br />
+								Line 1: (416) 361-0808 <br/>
+								Line 2: (416) 361-9246 <br/>
+								Line 3: (416) 361-9795 <br/>
+								Fax   : (416) 361-0244
+							</p>
+							<strong> Email: xdelivery.on@gmail.com </strong>
+						</li>
+					</ul>
+			
+					<ul>
+						<li> Liên Hệ </li>
+						<li>
+							<strong>Văn Phòng Vancouver</strong>
+							<p>
+								6460 Fraser Street, Vancouver, BC V5W 3A4 | Tel: (604) 620-7367
+							</p>
+						</li>
+						<li>
+							<strong> Văn Phòng Việt Nam </strong>
+							<p>
+								29 Nguyen Thi Thap Street, Him Lam New Urban Area, Tan Hung Ward, District 7, HCMC | Tel: (849) 0179 3977
+							</p>
+						</li>
+					</ul>
+					
+					<ul class="icon">
+						<li>
+							Partners
+						</li>
+						<li>
+							<i class="fab fa-facebook fa-2x"></i>
+						</li>
+						<li>
+						  <i class="fab fa-google-plus-g fa-2x"></i>
+						</li>
+						<li>
+						  <i class="fab fa-twitter fa-2x"></i>
+						</li>
+						<li>
+						  <i class="fab fa-youtube fa-2x"></i>
+						</li>
+						<li>
+						  <i class="fab fa-linkedin fa-2x"></i>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer-bottom text-center">
+				Copyright &copy; 2019 VnCan
+			</div>
+		</footer>
+		
+		<script src="js/main.js"></script>
+	</body>
+</html>
